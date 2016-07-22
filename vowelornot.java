@@ -1,12 +1,12 @@
 import java.util.Scanner;
 
 
-public class vowelornot {
+public class vo {
 	public static void main(String[] args) {
-char g;
+char f;
 	  Scanner fa=new Scanner(System.in);
-      g=fa.next().charAt(0);
-	if(g=='a' || g=='o' ||  g=='i' ||  g=='e' ||  g=='u' ){
+     f=fa.next().charAt(0);
+	if(f=='a' || f=='o' ||  f=='i' ||  f=='e' ||  f=='u' ){
 		System.out.println("vowel");
 	}
 	else{
