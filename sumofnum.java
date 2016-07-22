@@ -1,15 +1,15 @@
 import java.util.Scanner;
 
 
-public class sumofnum {
+public class sumo{
 	public static void main(String[] args) {
-	int num;
-	int sum=0;
+	int nu;
+	int su=0;
 	 Scanner ss=new Scanner(System.in);
-	    num=ss.nextInt();
-	    for(int i=0;i<=num;i++){
-	    	sum=sum+i;
+	    nu=ss.nextInt();
+	    for(int i=0;i<=nu;i++){
+	    	su=su+i;
 	    }
-	    System.out.println(sum);
+	    System.out.println(su);
 	}
 }
