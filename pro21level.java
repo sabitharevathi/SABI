@@ -26,7 +26,7 @@ public class pro21level {
 		
 		if(count==0){
 		
-			if(a[i]>ss[j]){
+			if(a[i]<ss[j]){
 				System.out.println("first"+i);
 				s.add(a[i]);
 				s.add(ss[j]);
